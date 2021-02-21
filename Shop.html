@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/boots.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu.css">
+    <link rel="stylesheet" type="text/css" href="./css/search.css">
+    <link rel="stylesheet" type="text/css" href="./css/shop.css">
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src=".\js\boots.js"></script>-->
+    <title>Shop</title>
+</head>
+
+
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper.js -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper.js and Bootstrap JS
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
+    -->
+
+<body>
+    <header>
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar navbar-dark">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler">Menu</span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" id="active" shref="Shop.html" id="navbarDropdownMenuLink" aria-haspopup="true" aria-expanded="false">Shop</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="Dress.html">Dress</a>
+                                <a class="dropdown-item" href="Boots.html">Boots</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Delivery.html">Delivery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contacts.html">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3" id="filters">
+                <div class="row">
+                    <div class="blockFilter col-sm-12" style=" margin-top: 2rem;">
+                        <input type="text" id="mySearch" onkeyup="funcSearch()" placeholder="Search..">
+                    </div>
+
+                    <div class="blockFilter col-sm-12">
+                        <h3>Price ($):</h3>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <input type="text" class="col-sm-6 form-control" id="priceMin" placeholder="from">
+                            </div>
+                            <div class="col-sm-1"> - </div>
+                            <div class="col-sm-5">
+                                <input type="text" class="col-sm-4 form-control" id="priceMax" placeholder="to">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blockFilter col-sm-11">
+                        <h3>Type:</h3>
+                        <select id="type" class="form-select">
+                        <option value=""  style="text-align: center;">--- Type ---</option>
+                        <option value="Dress">Dress</option>
+                        <option value="Boots">Boots</option>  
+                      </select>
+                    </div>
+
+                    <div class="blockFilter col-sm-11">
+                        <h3>Country:</h3>
+                        <select id="country" class="form-select">
+                        <option value="">--- Country ---</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="China">China</option>
+                        <option value="France">France</option>
+                        <option value="Italy">Italy</option>   
+                      </select>
+                    </div>
+
+                    <div class="blockFilter col-sm-11">
+                        <h3>In stock:</h3>
+                        <select id="check" class="form-select">
+                        <option value="">--- In stock ---</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                      </select>
+                    </div>
+
+                    <div class="blockFilter checkbox col-sm-11" id="sizeBootGeneral">
+                        <h3>Boot size <input type="button" value="..." onmousedown="viewDivBoots()" id="inpSizeBoot"> </h3>
+                        <div id="sizeBoot" class="form-group">
+                            <input type="checkbox" class="form-check-input" id="35" value="35">
+                            <label class="form-check-label" for="35"> 35</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="36" value="36">
+                            <label class="form-check-label" for="36"> 36</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="37" value="37">
+                            <label class="form-check-label" for="37"> 37</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="38" value="38">
+                            <label class="form-check-label" for="38"> 38</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="39" value="39">
+                            <label class="form-check-label" for="39"> 39</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="40" value="40">
+                            <label class="form-check-label" for="40"> 40</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="41" value="41">
+                            <label class="form-check-label" for="41">41</label><br>
+                        </div>
+                    </div>
+
+                    <div class="blockFilter checkbox col-sm-12">
+                        <h3>Dress size: <input type="button" value="..." onmousedown="viewDivDress()" id="inpSizeDress"> </h3>
+                        <div id="sizeDress" class="form-group">
+                            <input type="checkbox" class="form-check-input" id="XS" value="XS">
+                            <label class="form-check-label" for="XS"> XS</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="S" value="S">
+                            <label class="form-check-label" for="S"> S</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="M" value="M">
+                            <label class="form-check-label" for="M"> M</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="L" value="L">
+                            <label class="form-check-label" for="L"> L</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="XL" value="XL">
+                            <label class="form-check-label" for="XL"> XL</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="XXL" value="XXL">
+                            <label class="form-check-label" for="XXL"> XXL</label><br>
+
+                            <input type="checkbox" class="form-check-input" id="XXXL" value="XXXL">
+                            <label class="form-check-label" for="XXXL">XXXL</label><br>
+                        </div>
+                    </div>
+
+
+                    <div class="blockFilter checkbox col-sm-12">
+                        <h3>Colors:</h3>
+                        <div id="color" class="form-check-inline">
+                            <input type="checkbox" class="form-check-input" id="black" value="black" style="background-color: black;">
+
+                            <input type="checkbox" class="form-check-input" id="blue" value="blue" style="background-color: rgb(35, 54, 134);">
+
+                            <input type="checkbox" class="form-check-input" id="red" value="red" style="background-color: red;">
+
+                            <input type="checkbox" class="form-check-input" id="red" value="grey" style="background-color: rgb(182, 180, 180);">
+
+                            <input type="checkbox" class="form-check-input" id="beige" value="beige" style="background-color: beige;">
+
+                            <input type="checkbox" class="form-check-input" id="white" value="white" style="background-color: white;">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="row" id="shop">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/shop.js"></script>
+
+
+</body>
+
+</html>

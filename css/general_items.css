@@ -1,0 +1,14 @@
+@import url("/css/fonts.css");
+body {
+    font-family: "raleway";
+}
+
+.name {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid #dc3545;
+}
+
+.description {
+    border-top: 1px solid black;
+}

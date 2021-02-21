@@ -1,0 +1,58 @@
+@import url("/css/fonts.css");
+header {
+    background: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding-right: 3.5rem;
+    color: white;
+}
+
+.container {
+    font-size: 20px;
+    width: 100%;
+    font-family: "raleway";
+}
+
+.welcome {
+    text-align: center;
+}
+
+.welcomeP {
+    margin-top: 30%;
+    font-size: 48px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.threeFoto {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+#image{
+	max-width:100%;
+    height: 100%;
+	animation: fade 5s linear infinite;
+	animation-delay: 2.5s;
+}
+
+  @keyframes fade {
+	0% { opacity: 1 }
+	50% { opacity: 0 }
+	100% { opacity: 1 }
+  }

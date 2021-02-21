@@ -1,0 +1,40 @@
+@import url("/css/fonts.css");
+.container {
+    font-size: 20px;
+}
+
+header {
+    background: black;
+  /*  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;*/
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.navbar-dark .navbar-toggler {
+    color: white;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    color: white;
+    text-align: center;
+    font-family: "raleway";
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+
+#active {
+    color: rgb(214, 214, 144);
+}

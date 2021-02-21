@@ -1,0 +1,49 @@
+@import url("/css/fonts.css");
+body {
+    font-family: "raleway";
+}
+
+.divGeneral {
+    margin-bottom: 1.5rem;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.divImg {
+    border-bottom: 1px solid black;
+    padding: 0.2rem;
+}
+
+.divImg {
+    width: 210px;
+}
+
+#country {
+    font-size: 16px;
+}
+
+#filters {
+    padding-bottom: 2rem;
+    margin-top: 0.5rem;
+    border-right: 1px solid #dc3545;
+}
+
+.description {
+    opacity: 0.7;
+}
+
+.size {
+    margin-top: 0.8rem;
+}
+
+#size {
+    display: none;
+}
+
+#inpSize {
+    height: 30px;
+}
+
+.blockFilter {
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,112 @@
+[{
+    "id": 1,
+    "name": "Versace",
+    "type": "Dress",
+    "sizeD": ["M", "L", "S"],
+    "sizeB": ["vvv"],
+    "check": "Yes",
+    "cost": 300,
+    "ImageSource": "./images/dress/1.jpg",
+    "color": "black",
+    "country": "Turkey",
+    "date": "04/06/2020",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content"
+}, {
+    "id": 3,
+    "name": "Zara",
+    "type": "Dress",
+    "check": "No",
+    "sizeD": ["M", "S", "XL"],
+    "sizeB": ["vvv"],
+    "cost": 2500,
+    "ImageSource": "./images/dress/2.jpg",
+    "color": "red",
+    "country": "China",
+    "date": "05/01/2021",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content"
+
+}, {
+    "id": 5,
+    "name": "Prada",
+    "type": "Dress",
+    "check": "Yes",
+    "sizeD": ["XS"],
+    "sizeB": ["vvv"],
+    "cost": 7400,
+    "ImageSource": "./images/dress/3.jpg",
+    "color": "black",
+    "country": "France",
+    "date": "01/01/2021",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content"
+
+}, {
+    "id": 7,
+    "name": "Valentino",
+    "type": "Dress",
+    "check": "Yes",
+    "sizeD": ["M", "S", "XS"],
+    "sizeB": ["vvv"],
+    "cost": 3800,
+    "ImageSource": "./images/dress/4.jpg",
+    "color": "red",
+    "country": "Italy",
+    "date": "13/02/2019",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content"
+
+}, {
+    "id": 9,
+    "name": "Besato",
+    "type": "Dress",
+    "sizeD": ["M"],
+    "sizeB": ["vvv"],
+    "check": "Yes",
+    "cost": 1240,
+    "ImageSource": "./images/dress/5.jpg",
+    "color": "black",
+    "country": "China",
+    "date": "16/03/2014",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content"
+
+}, {
+    "id": 11,
+    "name": "Valentino",
+    "type": "Dress",
+    "check": "Yes",
+    "sizeD": ["S"],
+    "sizeB": ["vvv"],
+    "cost": 4400,
+    "ImageSource": "./images/dress/6.jpg",
+    "color": "white",
+    "country": "Italy",
+    "date": "18/07/2018",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content"
+
+}, {
+    "id": 13,
+    "name": "Balmain",
+    "type": "Dress",
+    "check": "Yes",
+    "sizeD": ["L"],
+    "sizeB": ["vvv"],
+    "cost": 3900,
+    "ImageSource": "./images/dress/7.jpg",
+    "color": "blue",
+    "country": "France",
+    "date": "17/07/2017",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content"
+
+}, {
+    "id": 15,
+    "name": "Dolce&Gabbana",
+    "type": "Dress",
+    "check": "Yes",
+    "sizeD": ["S", "L"],
+    "sizeB": ["vvv"],
+    "cost": 8300,
+    "ImageSource": "./images/dress/8.jpg",
+    "color": "beige",
+    "country": "Italy",
+    "date": "17/07/2017",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content"
+
+}]

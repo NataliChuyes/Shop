@@ -1,0 +1,26 @@
+@import url("/css/fonts.css");
+
+body{
+    font-family: "raleway";
+}
+.address_tel_mail {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.map {
+    margin: 2rem 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.form_send_mail {
+    background-color: darkgrey;
+}
+
+.contact_item{
+    margin-top: 1rem;
+}

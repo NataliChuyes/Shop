@@ -1,0 +1,120 @@
+[{
+    "id": 0,
+    "name": "Clarks",
+    "type": "Boots",
+    "check": "Yes",
+    "sizeB": ["36"],
+    "sizeD": ["vvv"],
+    "cost": 7400,
+    "ImageSource": "/images/boots/1.jpg",
+    "color": "grey",
+    "country": "France",
+    "date": "01/01/2021",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content",
+    "link": "./items/Boots/Clarks.html"
+
+}, {
+    "id": 2,
+    "name": "Versace",
+    "type": "Boots",
+    "check": "No",
+    "sizeB": ["36, 38, 41"],
+    "sizeD": ["vvv"],
+    "cost": 2500,
+    "ImageSource": "/images/boots/2.jpg",
+    "country": "China",
+    "color": "black",
+    "date": "05/01/2021",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content",
+    "link": "./items/Boots/Versace.html"
+
+}, {
+    "id": 4,
+    "name": "Loake",
+    "type": "Boots",
+    "sizeB": ["38, 39, 40"],
+    "sizeD": ["vvv"],
+    "check": "Yes",
+    "cost": 1500,
+    "ImageSource": "/images/boots/3.jpg",
+    "country": "Turkey",
+    "color": "red",
+    "date": "04/02/2020",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content",
+    "link": "Loake"
+}, {
+    "id": 6,
+    "name": "Gucci",
+    "type": "Boots",
+    "sizeB": ["38"],
+    "sizeD": ["vvv"],
+    "check": "Yes",
+    "cost": 1240,
+    "ImageSource": "/images/boots/4.jpg",
+    "country": "Italy",
+    "color": "beige",
+    "date": "16/03/2014",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content",
+    "link": "Gucci"
+
+}, {
+    "id": 8,
+    "name": "Jomos",
+    "type": "Boots",
+    "check": "Yes",
+    "sizeD": ["vvv"],
+    "sizeB": ["39"],
+    "cost": 3800,
+    "ImageSource": "/images/boots/5.jpg",
+    "country": "Italy",
+    "color": "black",
+    "date": "13/02/2019",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content",
+    "link": "Jomos"
+
+}, {
+    "id": 10,
+    "name": "Meka",
+    "type": "Boots",
+    "check": "Yes",
+    "sizeD": ["vvv"],
+    "sizeB": ["41"],
+    "cost": 4400,
+    "ImageSource": "/images/boots/8.jpg",
+    "country": "China",
+    "color": "black",
+    "date": "18/07/2018",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content",
+    "link": "Meka"
+
+}, {
+    "id": 12,
+    "name": "Barker",
+    "type": "Boots",
+    "check": "Yes",
+    "sizeD": ["vvv"],
+    "sizeB": ["40"],
+    "cost": 3900,
+    "ImageSource": "/images/boots/7.jpg",
+    "country": "Italy",
+    "color": "black",
+    "date": "17/07/2017",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content",
+    "link": "Barker"
+
+}, {
+    "id": 14,
+    "name": "Adelante",
+    "type": "Boots",
+    "check": "Yes",
+    "sizeD": ["vvv"],
+    "sizeB": ["39"],
+    "cost": 8300,
+    "ImageSource": "/images/boots/6.jpg",
+    "country": "France",
+    "color": "black",
+    "date": "17/07/2017",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content",
+    "link": "Adelante"
+
+}]

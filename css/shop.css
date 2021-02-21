@@ -1,0 +1,48 @@
+@import url("/css/fonts.css");
+.container {
+    font-family: "raleway";
+}
+
+.size {
+    margin-top: 0.8rem;
+}
+
+#sizeBoot {
+    display: none;
+}
+
+#sizeDress {
+    display: none;
+}
+
+#inpSizeBoot {
+    height: 32px;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+#inpSizeBoot:focus {
+    border: 1px solid #ced4da;
+}
+
+#inpSizeDress {
+    height: 32px;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+#color {
+    /*    display: none;*/
+    margin-bottom: 0.8rem;
+}
+
+#inpColor {
+    width: 30px;
+    padding: 2px;
+}
+
+.blockFilter {
+    margin-bottom: 0.5rem;
+}
