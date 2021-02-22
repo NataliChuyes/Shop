@@ -40,7 +40,7 @@ if (xhr.status != 200) {
 
     function filterGoods() {
         outputGoods(DATA.filter(n =>
-            (n.id == "2")
+            (n.id == "6")
         ));
 
     }

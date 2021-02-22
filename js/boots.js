@@ -34,24 +34,22 @@ if (xhr.status != 200) {
     }
 
 
-    function outputGoods(DATA) {
-        document.getElementById('boots').innerHTML = DATA.map(n => `
+  function outputGoods(concattedjson) {
+        document.getElementById('bootses').innerHTML = concattedjson.map(n => `
         <div class="divGeneral col-sm-3">
         <div class="card-header bg-transparent border-danger imgproduct1"> <a href="${n.link}"><img src="${n.ImageSource}" alt="No fragments" width="100%"></a></div>       
         <div class="card-body text-dark">
             <h5 class="card-title"><i><b>${n.name}</b></i></h5>                    
-            <d3 class="card-text">Date: <i>${n.date}</i> </d3>
+            <d3 class="card-text">Date: ${n.date} &nbsp&nbsp </d3>
             <d3 class="card-text"><b>${n.cost}$</b> </d3><br>
             <d3 class="card-title"> Country: ${n.country}</d3><br>
-            <d3>Sizes: ${n.sizeB} </d3><br>
-            <d3>In stock: ${n.check} </d3><br>
+            <d3>In stock: ${n.check} </d3>
         </div>
         <div class="card-footer bg-transparent border-dark description">${n.description} </div>
-        </div>`).join('');
+        </div> `).join('');
     }
 
-    outputGoods(DATA);
-
+    outputGoods(concattedjson);
 }
 
 function funcSearch() {

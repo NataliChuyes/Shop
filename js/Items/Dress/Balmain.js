@@ -1,7 +1,7 @@
 'use strict';
 
 var xhr = new XMLHttpRequest(); //созд-е obj XMLHttpRequest
-xhr.open('GET', '/data/boots.json', false); //Инициализация запроса: GET - полуить данные, URL, синхронно
+xhr.open('GET', '/data/dress.json', false); //Инициализация запроса: GET - полуить данные, URL, синхронно
 xhr.send(); // отправка
 
 if (xhr.status != 200) {
@@ -40,7 +40,7 @@ if (xhr.status != 200) {
 
     function filterGoods() {
         outputGoods(DATA.filter(n =>
-            (n.id == "2")
+            (n.id == "13")
         ));
 
     }

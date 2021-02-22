@@ -48,21 +48,3 @@ if (xhr.status != 200) {
 
 
 }
-
-function funcSearch() {
-    var input = document.getElementById('mySearch');
-    var search = input.value.toUpperCase();
-
-    let divGeneral = document.getElementsByClassName('divGeneral');
-    for (let i = 0; i < divGeneral.length; i++) {
-        let a = divGeneral[i];
-        console.log(a);
-        let txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(search) > -1) {
-            divGeneral[i].style.display = "";
-        } else {
-            divGeneral[i].style.display = "none";
-        }
-    }
-
-}
