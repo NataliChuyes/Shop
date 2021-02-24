@@ -34,8 +34,8 @@ if (xhr.status != 200) {
     }
 
 
-  function outputGoods(concattedjson) {
-        document.getElementById('bootses').innerHTML = concattedjson.map(n => `
+  function outputGoods(DATA) {
+        document.getElementById('boots').innerHTML = DATA.map(n => `
         <div class="divGeneral col-sm-3">
         <div class="card-header bg-transparent border-danger imgproduct1"> <a href="${n.link}"><img src="${n.ImageSource}" alt="No fragments" width="100%"></a></div>       
         <div class="card-body text-dark">
@@ -49,7 +49,7 @@ if (xhr.status != 200) {
         </div> `).join('');
     }
 
-    outputGoods(concattedjson);
+    outputGoods(DATA);
 }
 
 function funcSearch() {

@@ -12,3 +12,28 @@ body {
 .description {
     border-top: 1px solid black;
 }
+
+.slide{
+    min-height: 150px;
+    max-width: 300px;
+    position: relative;
+
+}
+
+.slide_title{
+position: absolute;
+bottom: 0px;
+left: 47%;
+}
+
+.slide_title_color{
+    color: rgb(214, 214, 144);
+}
+
+/*
+img {
+    width:300px; 
+    transition:width 0.5s ease; 
+}
+
+#statya:hover img { width:500px; }*/

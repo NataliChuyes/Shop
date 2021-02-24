@@ -1,4 +1,29 @@
 'use strict';
+$(document).ready(function(){
+    $("#slider").owlCarousel();
+  });
+
+$(document).ready(function(){
+    const slider = $("#slider").owlCarousel({
+        items:4,
+        loop:true,
+        margin:1,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    });
+});
+
+
 
 var xhr = new XMLHttpRequest(); //созд-е obj XMLHttpRequest
 xhr.open('GET', '/data/boots.json', false); //Инициализация запроса: GET - полуить данные, URL, синхронно
@@ -7,12 +32,9 @@ xhr.send(); // отправка
 if (xhr.status != 200) {
     alert(xhr.status + ': ' + xhr.statusText);
 } else {
-    let DATA = JSON.parse(xhr.responseText); //obj    
-
+    let DATA = JSON.parse(xhr.responseText); //obj  
 
     function outputGoods(DATA) {
-        console.log(DATA)
-
         document.getElementById('clarks').innerHTML = DATA.map(n => `
         <div class="col-sm-1">
         </div>
@@ -30,10 +52,6 @@ if (xhr.status != 200) {
                 <div class="description">
                     <p >Description: ${n.description}</i></p>
                 </div>
-            </div>
-            
-            <div class="col-sm-12 foot" style="background-color: #ccc ">
-                <p class="">Slider </p>
             </div>`).join('');
 
     }
@@ -48,3 +66,4 @@ if (xhr.status != 200) {
 
 
 }
+

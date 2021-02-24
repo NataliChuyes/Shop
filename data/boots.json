@@ -7,6 +7,14 @@
     "sizeD": ["vvv"],
     "cost": 7400,
     "ImageSource": "/images/boots/1.jpg",
+    "ImageCarusel":
+        {
+            "photo1" : "/images/boots/Clarks/1photo.jpg",          
+            "photo2" : "/images/boots/Clarks/2photo.jpg",          
+            "photo3" : "/images/boots/Clarks/3photo.jpg",          
+            "photo4" : "/images/boots/Clarks/4photo.jpg",       
+            "photo5" : "/images/boots/Clarks/5photo.jpg"     
+        },
     "color": "grey",
     "country": "France",
     "date": "01/01/2021",
