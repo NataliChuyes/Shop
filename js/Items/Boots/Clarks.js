@@ -35,12 +35,11 @@ if (xhr.status != 200) {
     let DATA = JSON.parse(xhr.responseText); //obj  
 
     function outputGoods(DATA) {
-        document.getElementById('clarks').innerHTML = DATA.map(n => `
-        <div class="col-sm-1">
-        </div>
-            <div class="col-sm-4 picture">
-                <p class=""><img src="${n.ImageSource}" alt="No fragments" width="100%"></p>
+        document.getElementById('clarks').innerHTML = DATA.map(n => `        
+            <div class="col-sm-4">               
+                <img src="${n.ImageSourceBig}" alt="No fragments" class="picture">
             </div>
+            <div class="col-sm-1"></div>
             <div class="col-sm-6 characteristics">
                 <p class="name">${n.name} </p>
                 <p class="">Date: <i>${n.date}</i></p>

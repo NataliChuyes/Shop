@@ -14,21 +14,10 @@ body {
 }
 
 .slide{
-    min-height: 150px;
-    max-width: 300px;
-    position: relative;
-
+    height: 200px;
+    max-width: 420px;
 }
 
-.slide_title{
-position: absolute;
-bottom: 0px;
-left: 47%;
-}
-
-.slide_title_color{
-    color: rgb(214, 214, 144);
-}
 
 /*
 img {
@@ -37,3 +26,8 @@ img {
 }
 
 #statya:hover img { width:500px; }*/
+
+.picture{
+    width:  100%;
+    min-height: 100%;
+}
