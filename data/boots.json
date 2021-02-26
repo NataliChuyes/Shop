@@ -79,19 +79,19 @@
 
 }, {
     "id": 10,
-    "name": "Meka",
+    "name": "Aiformaria",
     "type": "Boots",
     "check": "Yes",
     "sizeD": ["vvv"],
     "sizeB": ["41"],
     "cost": 4400,
-    "ImageSource": "/images/boots/Meka.jpg",
-    "ImageSourceBig":"/images/boots/Meka/1.jpg",
+    "ImageSource": "/images/boots/Aiformaria.jpg",
+    "ImageSourceBig":"/images/boots/Aiformaria/1.jpg",
     "country": "China",
     "color": "blue",
     "date": "18/07/2018",
     "description": "Some quick example text to build on the card title and make up the bulk of the card's content",
-    "link": "./items/Boots/Meka.html"
+    "link": "./items/Boots/Aiformaria.html"
 
 }, {
     "id": 12,

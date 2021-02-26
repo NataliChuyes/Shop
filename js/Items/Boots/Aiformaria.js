@@ -32,7 +32,7 @@ if (xhr.status != 200) {
     let DATA = JSON.parse(xhr.responseText); //obj    
 
     function outputGoods(DATA) {
-        document.getElementById('meka').innerHTML = DATA.map(n => `
+        document.getElementById('Aiformaria').innerHTML = DATA.map(n => `
             <div class="col-sm-4">
                 <img src="${n.ImageSourceBig}" alt="No fragments" class="picture">
             </div>
