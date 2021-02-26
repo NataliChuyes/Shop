@@ -14,10 +14,17 @@ body {
 }
 
 .slide{
+    margin-top: 2rem;
     height: 200px;
     max-width: 420px;
 }
 
+
+.slideDress{
+    margin-top: 2rem;
+    height: 495px;
+    max-width: 418px;
+}
 
 /*
 img {
@@ -30,4 +37,9 @@ img {
 .picture{
     width:  100%;
     min-height: 100%;
+}
+
+.pictureDress{
+    width:  100%;
+    height: 100%;
 }

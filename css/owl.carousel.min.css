@@ -10,7 +10,8 @@
 
  .owl-carousel{
      display:none;
-     width:100%;z-index:1
+     width:100%;
+     z-index:1
 }
  .owl-carousel .owl-stage{
     position:relative;
@@ -48,7 +49,8 @@
 }
 .owl-carousel .owl-item img{
     display:block;
-    width:100%
+    width:100%;
+    height: 100%;
 }
 .owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{
     display:none
